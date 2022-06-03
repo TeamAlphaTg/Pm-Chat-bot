@@ -9,7 +9,7 @@ from database.db import Database
 from asyncio import sleep
 from helper.fsub import forcesub
 
-@Client.on_message(filter.user(OWNER_ID) & filters.command("info"))
+@Client.on_message(filters.user(OWNER_ID) & filters.command("info"))
 async def replay_media(bot, message):
     file = message.reply_to_message
     reference_id = file.text.split()[2]
