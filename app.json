@@ -10,24 +10,19 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
-            "required": "True"
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps",
-            "required": "True"
         },
         "MONGO_URI": {
             "description": "mongo URL, Get it from mongodb.com",
-            "required": "True"
         },
         "FSUB": {
             "description": "Force Sub Channel Username Without '@'",
-            "required": "True"
         },
         "OWNER_ID": {
             "description": "Your Telegram Id",
             "value": "1884885842",
-            "required": "True"
         },
         "START_STRING": {
             "description": "Start Message",
@@ -37,7 +32,6 @@
         },
         "API_ID": {
             "description": "Your API_ID from https",
-            "required": "True"
         }
     },
     "buildpacks": [
