@@ -8,8 +8,6 @@ from pyrogram.errors import *
 from pyrogram.types import *
 
 #Vars
-HEROKU_API_KEY = os.getenv("HEROKU_API_KEY", "")
-HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "5011377446:AAHavxAS4fO42B41mNVcKVoQL8z6D6_LUdU")  # from @botfather
 API_ID = int(os.getenv("API_ID", "8838171"))  # from https://my.telegram.org/apps
 API_HASH = os.getenv("API_HASH", "0587408d4f7d9301f5295840b0f3b494")  # from https://my.telegram.org/apps
