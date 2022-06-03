@@ -1,5 +1,5 @@
 {
-    "name": "Memehub Bot",
+    "name": "Pm Chat Bot",
     "description": "Multi Function Pm Bot",
     "repository": "https://github.com/teamalphatg/Pm-Chat-bot",
     "logo": "https://telegra.ph/file/9f271ad6d291dac311b7d.jpg",
@@ -7,6 +7,7 @@
                  "pyro",
                  "pmbot",
                  "livegrambot"],
+    ],
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
@@ -14,7 +15,7 @@
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps",
-            "required": "True
+            "required": "True"
         },
         "MONGO_URI": {
             "description": "mongo URL, Get it from mongodb.com",
@@ -26,8 +27,8 @@
         },
         "OWNER_ID": {
             "description": "Your Telegram Id",
+            "value": "1884885842",
             "required": "True",
-			"value": "1884885842"
         },
         "START_STRING": {
             "description": "Start Message",
@@ -40,16 +41,9 @@
             "required": "True",
         }
     },
-    "stack": "heroku-20",
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    ]
 }
