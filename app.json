@@ -7,7 +7,6 @@
                  "pyro",
                  "pmbot",
                  "livegrambot"],
-    ],
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
