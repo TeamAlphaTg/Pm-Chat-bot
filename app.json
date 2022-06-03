@@ -1,14 +1,12 @@
 {
     "name": "Pm Chat Bot",
-    "description": "Pm Chat Bot Based On Pyrogram",
-    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot", 
+    "description": "Pyrogram Pm Bot",
+    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot",
     "logo": "https://telegra.ph/file/9c92683ff407ed7de9d71.jpg",
-    "keywords": [
-        "pyrogram",
-        "pyro",
-        "pmbot",
-        "livegrambot"
-    ],
+    "keywords": ["pyrogram",
+                 "pyro",
+                 "livegram",
+                 "pmbot"],
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
