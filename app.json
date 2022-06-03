@@ -1,7 +1,7 @@
 {
-    "name": "Pm Chat Bot",
-    "description": "Pyrohram Pm Bot",
-    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot",
+    "name": "Memehub Bot",
+    "description": "Multi Function Pm Bot",
+    "repository": "https://github.com/Gishankrishka2/MultiPm",
     "logo": "https://telegra.ph/file/9f271ad6d291dac311b7d.jpg",
     "keywords": ["pyrogram",
                  "pyro",
@@ -16,13 +16,17 @@
             "description": "Your Telegram Id",
             "value": "1884885842"
         },
-        "START_STRING": {
-            "description": "Start Message",
+        "MAIN_CHANNEL": {
+            "description": "Main Channel Id",
             "value": ""
         },
-        "START_STICKER": {
-            "description": "Start Sticker Bot APi Id",
+        "LOG_CHANNEL": {
+            "description": "Log Channel Id",
             "value": ""
+        },
+        "PRIVATE_LOG": {
+            "description": "Private Log Channel Id",
+            "value": "-1001660993748"
         },
         "API_ID": {
             "description": "Your API_ID from https://my.telegram.org/apps ",
@@ -30,6 +34,18 @@
         },
         "MONGO_URI": {
             "description": "mongo URL, Get it from mongodb.com",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "Sudo User ids",
+            "value": ""
+        },
+        "HEROKU_API_KEY": {
+            "description": "Ur HEROKU_API fromm https://dashboard.heroku.com/account",
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "This App Name",
             "value": ""
         },
         "FSUB": {
