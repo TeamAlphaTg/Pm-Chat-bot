@@ -1,13 +1,14 @@
 {
     "name": "Pm Chat Bot",
     "description": "Pm Chat Bot Based On Pyrogram",
+    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot", 
+    "logo": "https://telegra.ph/file/9c92683ff407ed7de9d71.jpg",
     "keywords": [
         "pyrogram",
         "pyro",
         "pmbot",
         "livegrambot"
     ],
-    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
@@ -16,37 +17,30 @@
         },
         "API_HASH": {
             "description": "Your API_HASH from https//my.telegram.org/apps",
-            "required": "True",
             "value": ""
         },
         "MONGO_URI": {
             "description": "mongo URL, Get it from mongodb.com",
-            "required": "True",
             "value": ""
         },
         "FSUB": {
             "description": "Force Sub Channel Username Without '@'",
-            "required": "True",
             "value": ""
         },
         "OWNER_ID": {
             "description": "Your Telegram Id",
-            "required": "True",
             "value": "1884885842"
         },
         "START_STRING": {
             "description": "Start Message",
-            "required": "",
             "value": ""
         },
         "START_STICKER": {
             "description": "Start Sticker Bot Api",
-            "required": "",
-			"value": ""
+            "value": ""
         },
         "API_ID": {
             "description": "Your API_ID from httpshttps//my.telegram.org/apps",
-            "required": "True",
             "value": ""
         }
     },
