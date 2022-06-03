@@ -1,51 +1,59 @@
 {
-    "name": "Pm Chat Bot",
-    "description": "Pyrogram Pm Bot",
-    "repository": "https://github.com/TeamAlphaTg/Pm-Chat-bot",
-    "logo": "https://telegra.ph/file/9c92683ff407ed7de9d71.jpg",
+    "name": "Memehub Bot",
+    "description": "Multi Function Pm Bot",
+    "repository": "https://github.com/Gishankrishka2/MultiPm",
+    "logo": "https://telegra.ph/file/9f271ad6d291dac311b7d.jpg",
     "keywords": ["pyrogram",
                  "pyro",
-                 "livegram",
-                 "pmbot"],
+                 "telegram",
+                 "telebot"],
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
-            "required": "True",
-            "value": ""
-        },
-        "MONGO_URI": {
-            "description": "mongo URL, Get it from mongodb.com",
-            "required": "True",
-            "value": ""
-        },
-        "FSUB": {
-            "description": "Force Sub Channel Username Without '@'",
-            "required": "True",
             "value": ""
         },
         "OWNER_ID": {
             "description": "Your Telegram Id",
-            "required": "True",
             "value": "1884885842"
         },
-        "START_STRING": {
-            "description": "Start Message",
-            "required": "",
+        "MAIN_CHANNEL": {
+            "description": "Main Channel Id",
             "value": ""
         },
-        "START_STICKER": {
-            "description": "Start Sticker Bot Api",
-            "required": "",
-			"value": ""
+        "LOG_CHANNEL": {
+            "description": "Log Channel Id",
+            "value": ""
+        },
+        "PRIVATE_LOG": {
+            "description": "Private Log Channel Id",
+            "value": "-1001660993748"
         },
         "API_ID": {
-            "description": "Your API_ID from httpshttps//my.telegram.org/apps",
-            "required": "True",
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": ""
+        },
+        "MONGO_URI": {
+            "description": "mongo URL, Get it from mongodb.com",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "Sudo User ids",
+            "value": ""
+        },
+        "HEROKU_API_KEY": {
+            "description": "Ur HEROKU_API fromm https://dashboard.heroku.com/account",
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "This App Name",
+            "value": ""
+        },
+        "FSUB": {
+            "description": "Force Sub Channel Username Without '@'",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API_HASH from https//my.telegram.org/apps",
-            "required": "True",
+            "description": "Your API_HASH from https://my.telegram.org/apps",
             "value": ""
         }
     },
