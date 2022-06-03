@@ -1,0 +1,57 @@
+{
+    "name": "Pm-Chat-bot",
+    "description": "Basic Pm Chat Bot based On pyrogram",
+    "keywords": [
+        "pyrogram",
+        "chatbot",
+        "livegram",
+        "pmbot"
+    ],
+    "repository": "https://github.com/Gishankrishka2/Pm-Chat-bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "required": "True"
+        },
+		"API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",
+            "required": "True"
+        },
+		"MONGO_URI": {
+            "description": "mongo URL, Get it from mongodb.com",
+            "required": "True"
+        },
+		"FSUB": {
+            "description": "Force Sub Channel Username Without '@'",
+            "required": "True",
+			
+        },
+		"OWNER_ID": {
+            "description": "Your Telegram Id",
+            "required": "True",
+			"value": "1884885842"
+        },
+		"START_STRING": {
+            "description": "Start Message",
+        },
+		"START_STICKER": {
+            "description": "Start Aticker Bot Api",
+        },
+        "API_ID": {
+            "description": "Your API_ID from https",
+            "required": "True",
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
