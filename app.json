@@ -22,22 +22,22 @@
         },
         "FSUB": {
             "description": "Force Sub Channel Username Without '@'",
-            "required": "True",
+            "required": "True"
         },
         "OWNER_ID": {
             "description": "Your Telegram Id",
             "value": "1884885842",
-            "required": "True",
+            "required": "True"
         },
         "START_STRING": {
             "description": "Start Message",
         },
         "START_STICKER": {
-            "description": "Start Aticker Bot Api",
+            "description": "Start Aticker Bot Api"
         },
         "API_ID": {
             "description": "Your API_ID from https",
-            "required": "True",
+            "required": "True"
         }
     },
     "buildpacks": [
