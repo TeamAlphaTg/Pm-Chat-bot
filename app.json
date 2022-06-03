@@ -10,7 +10,6 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather",
-            "required": "True",
             "value": ""
         },
         "API_HASH": {
