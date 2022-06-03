@@ -25,7 +25,7 @@
             "value": "1884885842"
         },
         "START_STRING": {
-            "description": "Start Message '{} {} Thease Two Are required' ",
+            "description": "Start Message '{} {} These are required' ",
             "value": "Hi {}, Welcome to  {}'s Pm Bot."
         },
         "START_STICKER": {
