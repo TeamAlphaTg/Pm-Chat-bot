@@ -8,10 +8,10 @@ from pyrogram.errors import *
 from pyrogram.types import *
 
 #Vars
-BOT_TOKEN = os.getenv("BOT_TOKEN", "5011377446:AAHavxAS4fO42B41mNVcKVoQL8z6D6_LUdU")  # from @botfather
-API_ID = int(os.getenv("API_ID", "8838171"))  # from https://my.telegram.org/apps
-API_HASH = os.getenv("API_HASH", "0587408d4f7d9301f5295840b0f3b494")  # from https://my.telegram.org/apps
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://ultroid10:9vQtrB1LxJbVXc5a@cluster0.4ssb3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # from @botfather
+API_ID = int(os.getenv("API_ID", ""))  # from https://my.telegram.org/apps
+API_HASH = os.getenv("API_HASH", "")  # from https://my.telegram.org/apps
+MONGO_URI = os.getenv("MONGO_URI", "")
 force_subchannel = os.getenv("FSUB", "gishankrishka1_cloud")
 OWNER_ID = int(os.environ.get("OWNER_ID", "1884885842"))
 START_STRING = os.getenv("START_STRING", "Hi {}, Welcome to  {}'s Pm Bot.")
