@@ -19,7 +19,8 @@
 - `ban users`
 - `unban users`
 - `list banned users`
-- 
+- `message from user info`
+
 ## Needed Vars
 - `API_ID` - Get This Value from [my.telegram.org](https://my.telegram.org)
 -  `API_HASH` - Get This Value from [my.telegram.org](https://my.telegram.org)
