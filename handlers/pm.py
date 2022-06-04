@@ -72,7 +72,7 @@ async def reply_text(bot, message):
         except Exception:
             pass
         await bot.send_message(
-            text=f"**Msg From**:{message.from_user.mention}\n\n{message.text}",
+            text=message.text,
             chat_id=int(reference_id)
         )
 
