@@ -46,7 +46,7 @@ CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
 
 
 # Contributors
-![GitHub Contributors Image](https://contrib.rocks/image?repo=TeamAlphaTg/Pm-Chat-bot/)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=TeamAlphaTg/Pm-Chat-bot)
 
 Powered By  [┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』](https://t.me/AlphaTm_Botz)
            - [Team ┊𝙰𝙻𝙿𝙷𝙰 么](https://t.me/Team_Alpha_Devs/4)
