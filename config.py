@@ -21,7 +21,9 @@ PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
 PM_TXT_ATTS = "<b>Message from:</b> {}\n<b>Name:</b> {}"
 PM_MED_ATT = "<b>Message from:</b> {} \n<b>Name:</b> {}\n<b>Caption</b>:{}"
 FORCESUB_TEXT = "**❌ Access Denied ❌**\n\nMemehub eke nathuva Mokatada yako Botva Start Kare kkk😒😒\n♻️Join and Try Again.♻️"
-HELP_STRING = "Meme Tiye nam dapam Mekata😒😂. Adminlata Msg Daanna One Nam ekat Mekata dapam 😒😂"
+HELP_STRING = """Hello.. ❣️GIsᕼᴀɴ KʀIʜsᕼᴋᴀ❣️
+Type your query here..
+I'll respond to your query as earliest 😉"""
 
 
 
@@ -48,7 +50,7 @@ BACK_BUTTONS = InlineKeyboardMarkup([[
                   ) 
 
 START_BUTTON = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('🍁 Owner 🍁', user_id=f"{OWNER_ID}")
+                 InlineKeyboardButton('┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』', url="https://t.me/AlphaTm_Botz")
                  ],
                  [
                  InlineKeyboardButton(text="🌴 ʜᴇʟᴘ 🌴",callback_data="hlp")
@@ -77,7 +79,16 @@ DEV_BTN = InlineKeyboardMarkup([[
             InlineKeyboardButton("🍄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍄", url="https://github.com/TeamAlphaTg/MemehubtgSl_Bot") 
             ]]
             )
-
+HELP_BTN = InlineKeyboardMarkup([[              
+                 InlineKeyboardButton('┊𝙰𝙻𝙿𝙷𝙰 么 ™ Bots 『🇱🇰』', url="https://t.me/AlphaTm_Botz")
+                 ],
+                 [
+                 InlineKeyboardButton("🍄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍄", url="https://github.com/TeamAlphaTg/Pm-Chat-bot") 
+                 ],
+                 [
+                 InlineKeyboardButton("Back", callback_data="stback") 
+                 ]]
+                  )
 
 #Rndm Stkr
 
