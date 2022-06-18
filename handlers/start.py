@@ -42,4 +42,21 @@ async def start(client, message):
         disable_web_page_preview=True,
         quote=True
     )
+  
+
+@Client.on_message(filters.command("help"))
+async def help(bot, message):
+  await bot.send_sticker(message.chat.id, S_STICKER)
+  await message.reply_text(text=HELP_STRING,reply_markup=HELP_BTN)
+
     
+    
+@Client.on_callback_query(filters.regex("stback"))
+async def start_menu(_,query):
+  await query.answer()
+  await query.message.edit(START_STRING,reply_markup=START_BUTTON)
+
+@Client.on_callback_query(filters.regex("hlp"))
+async def help_menu(_,query):
+  await query.answer()
+  await query.message.edit(HELP_STRING,reply_markup=HELP_BTN)
